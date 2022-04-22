@@ -22,6 +22,7 @@ A simple way to perform feature extraction is to use SIFT(Scale Inverse Feature 
 ![image](https://user-images.githubusercontent.com/73610600/164747187-36375b08-2936-4630-b70a-473cfab12490.png)
 
 ## Algorithm
+**1.SVM**
 We will be using SVM classifier (SVC) which are capable of performing linear classifications as well as non-linear classifications using kernels. We will be using a gaussian kernel for this classification. Here we are using 20% of dataset as testset.
 
 ![image](https://user-images.githubusercontent.com/73610600/164747309-c0e01f6e-a0b4-4ec6-90fc-f56bb26e84b2.png)
@@ -29,4 +30,11 @@ We will be using SVM classifier (SVC) which are capable of performing linear cla
 Classification report shows accuracy (~ 93%) 
 Macro avg (precision 92% recall 91% f1-score 93% support 110)
 
+**2.KNN**
+accuracy of 90.4%
 
+**3.Logistic Regression**
+accuracy of 97.4%
+
+**4.Decision Trees**
+accuracy of 77%
